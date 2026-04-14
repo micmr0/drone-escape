@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Drone Escape – Futuristic Drone Flight Game</title>
+
+<meta name="description" content="Pilot a drone and escape a futuristic city full of neon tunnels and tight gaps. Test your precision and reflexes in Drone Escape.">
+<meta name="keywords" content="drone game, flying game, android game, arcade game, futuristic game, drone simulator">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#020617">
+<link rel="canonical" href="https://micmr0.github.io/drone-escape/">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Drone Escape – Futuristic Drone Flight Game">
+<meta property="og:description" content="Pilot your drone through neon tunnels and escape a futuristic city. Precision and reflexes required.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="screens/1.png">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Performance -->
+<link rel="preconnect" href="https://www.youtube-nocookie.com">
+
+<!-- Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Drone Escape",
+  "applicationCategory": "Game",
+  "operatingSystem": "Android",
+  "description": "Pilot a drone and escape a futuristic city filled with neon tunnels and tight spaces.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+</script>
+
+<style>
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
+  background:linear-gradient(180deg,#020617,#0b1220);
+  color:white;
+}
+
+.hero{
+  text-align:center;
+  padding:90px 20px 60px;
+  position:relative;
+  overflow:hidden;
+}
+
+.hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:radial-gradient(circle at top,#22c55e33,transparent 60%);
+  z-index:0;
+}
+
+.hero-content{
+  position:relative;
+  z-index:1;
+  max-width:900px;
+  margin:auto;
+}
+
+.hero h1{
+  font-size:3rem;
+  margin-bottom:10px;
+}
+
+.hero p{
+  opacity:0.75;
+}
+
+.hero img.main-shot{
+  width:260px;
+  margin:30px auto 20px;
+  border-radius:28px;
+  box-shadow:0 20px 60px rgba(0,0,0,0.6);
+  display:block;
+}
+
+.store-btn{
+  display:inline-block;
+  margin:14px 0 20px;
+}
+
+.store-btn img{
+  width:220px;
+  transition:0.25s;
+}
+
+.store-btn img:hover{
+  transform:scale(1.05);
+  filter:drop-shadow(0 8px 20px rgba(34,197,94,0.5));
+}
+
+.section{
+  max-width:1000px;
+  margin:60px auto;
+  padding:0 20px;
+  text-align:center;
+}
+
+.video iframe{
+  width:100%;
+  aspect-ratio:16/9;
+  border:none;
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.4);
+}
+
+.screens{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:18px;
+  padding:40px 20px;
+}
+
+.screens img{
+  width:200px;
+  border-radius:20px;
+  transition:0.25s;
+  box-shadow:0 10px 25px rgba(0,0,0,0.4);
+}
+
+.screens img:hover{
+  transform:translateY(-6px) scale(1.04);
+}
+
+.info{
+  max-width:900px;
+  margin:60px auto;
+  padding:28px;
+  background:rgba(255,255,255,0.04);
+  border:1px solid rgba(255,255,255,0.06);
+  border-radius:24px;
+  line-height:1.7;
+}
+
+.info .lead{
+  color:#22c55e;
+  font-weight:600;
+}
+
+.faq{
+  max-width:900px;
+  margin:60px auto;
+  padding:0 20px;
+}
+
+details{
+  background:#141c2e;
+  margin:10px 0;
+  padding:16px;
+  border-radius:14px;
+  border:1px solid rgba(255,255,255,0.06);
+  transition:0.25s;
+}
+
+details:hover{
+  background:#18233a;
+  transform:translateY(-2px);
+}
+
+summary{
+  cursor:pointer;
+  font-weight:bold;
+}
+
+details p{
+  margin-top:10px;
+  opacity:0.85;
+}
+
+footer{
+  text-align:center;
+  padding:40px;
+  opacity:0.7;
+  border-top:1px solid rgba(255,255,255,0.06);
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+  <div class="hero-content">
+
+    <h1>Drone Escape</h1>
+    <p>Precision. Speed. Escape the futuristic maze.</p>
+
+    <img class="main-shot" src="screens/1.jpg" alt="Drone Escape gameplay">
+
+    <a class="store-btn"
+       href="https://play.google.com/store/apps/details?id=com.micmr0.droneescape"
+       target="_blank"
+       rel="noopener noreferrer">
+      <img src="get_it.png" alt="Get it on Google Play">
+    </a>
+
+  </div>
+</section>
+
+<section class="section">
+  <h2>See it in action</h2>
+  <div class="video">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/Rtuzt-9-5w0?rel=0"
+      title="Drone Escape gameplay"
+      loading="lazy">
+    </iframe>
+  </div>
+</section>
+
+<section class="screens">
+  <img src="screens/1.jpg" alt="Drone gameplay">
+  <img src="screens/2.jpg" alt="Neon tunnels">
+  <img src="screens/3.jpg" alt="Tight gaps flying">
+  <img src="screens/4.png" alt="Futuristic city">
+  <img src="screens/5.jpg" alt="Space">
+</section>
+
+<section class="info">
+  <h2>Game Info</h2>
+
+  <p class="lead">🚁 Drone Escape – master your flight and break free.</p>
+
+  <p>
+    Pilot a drone and try to escape from a futuristic city filled with narrow gaps and glowing neon tunnels.
+    Every movement matters — precision is your only way out.
+  </p>
+
+  <p>
+    Navigate through tight spaces, react quickly, and test your reflexes in a high-speed environment.
+    How far can you go before crashing?
+  </p>
+
+  <p>✔ Smooth and responsive controls</p>
+  <p>✔ Challenging narrow paths</p>
+  <p>✔ Futuristic neon visuals</p>
+  <p>✔ Skill-based gameplay</p>
+
+  <p class="lead">
+    Can you survive the maze of technology and reach freedom?
+  </p>
+</section>
+
+<section class="faq">
+  <h2>FAQ</h2>
+
+  <details>
+    <summary>Is the game difficult?</summary>
+    <p>Yes — it’s designed to test your precision and reflexes.</p>
+  </details>
+
+  <details>
+    <summary>Is it free?</summary>
+    <p>Yes, the game is completely free to play.</p>
+  </details>
+
+  <details>
+    <summary>Do I need internet?</summary>
+    <p>No, you can play offline anytime.</p>
+  </details>
+
+  <details>
+    <summary>What is the goal?</summary>
+    <p>Fly as far as possible and escape the futuristic maze.</p>
+  </details>
+
+</section>
+
+<footer>
+  <p>© 2026 Drone Escape • micmr0</p>
+</footer>
+
+</body>
+</html>
