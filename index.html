@@ -104,18 +104,52 @@ body{
 }
 
 .section{
-  max-width:1000px;
+  max-width:1400px;
   margin:60px auto;
   padding:0 20px;
   text-align:center;
 }
 
-.video iframe{
+.feature-media{
+  flex:1;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+
+.feature-media video{
   width:100%;
-  aspect-ratio:16/9;
-  border:none;
-  border-radius:20px;
-  box-shadow:0 10px 30px rgba(0,0,0,0.4);
+  max-width:300px;
+  border-radius:32px;
+  box-shadow:0 30px 90px rgba(0,0,0,0.45);
+}
+
+.feature-video-short{
+  width:100%;
+  max-width:360px;
+  aspect-ratio:9/16;
+  border-radius:32px;
+  overflow:hidden;
+  box-shadow:0 30px 90px rgba(0,0,0,0.45);
+  background:#000;
+  margin:auto;
+}
+
+
+.feature-video-short iframe{
+  width:100%;
+  height:100%;
+  border:0;
+}
+
+.youtube-short{
+  transition:0.35s ease;
+}
+
+.youtube-short:hover{
+  transform:translateY(-6px) scale(1.02);
+  box-shadow:0 45px 120px rgba(34,197,94,0.35);
 }
 
 .screens{
@@ -213,7 +247,7 @@ footer{
 
 <section class="section">
   <h2>See it in action</h2>
-  <div class="video">
+  <div class="feature-video-short youtube-short">
     <iframe
       src="https://www.youtube-nocookie.com/embed/Rtuzt-9-5w0?rel=0"
       title="Drone Escape gameplay"
